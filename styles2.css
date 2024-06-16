@@ -1,0 +1,70 @@
+body {
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 25px;
+}
+.header {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo,
+.school-logo {
+  width: 150px;
+  height: auto;
+}
+.title {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.subtitle {
+  font-size: 1.4rem;
+}
+.main {
+  padding: 40px 0;
+}
+.about,
+.disclaimer {
+  margin-bottom: 30px;
+}
+.about h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+.disclaimer p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.button {
+  background-color: #222;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #1a1a1a;
+}
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  padding-bottom: 5%;
+}
+@media screen and (max-width: 1024px) {
+}
